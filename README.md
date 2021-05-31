@@ -13,3 +13,8 @@ Respuestas a los miniquiz
 ### 3
 * [] En el objeto matematico,¿cual de los siguentes metodos se usa paracalcular la raiz? sqrt
 * [] ¿cuales de estos nombres son aceptables para la variables de javaScript? _modulo y primer modulo
+
+
+### 4
+* [] para generar "js is cool!" a la consola: console.log ("¡JS es genial!");
+* [] ¿Que dos palabras clave necesitamos para crear una matriz? nuevo y formacion
