@@ -107,3 +107,33 @@ function main() {
 function convertir (cantidad,tasa){
 	return cantidad * tasa 
 }
+
+### proyecto 4
+You are working on a Contact Manager app.
+You have created the contact object constructor, which has two arguments, name and number.
+You need to add a print() method to the object, which will output the contact data to the console in the following format: name: number
+The given code declares two objects and calls their print() methods. Complete the code by defining the print() method for the objects.
+
+solucion:
+[10:22 p. m., 29/5/2021] Edmon: function contact(name, number) {
+    this.name = name;
+    this.number = number;
+    this.print = () =>{
+    console.log(this.name+": "+this.number);
+  }
+}
+
+var a = new contact("David", 12345);
+var b = new contact("Amy", 987654321)
+a.print();
+b.print();
+[10:22 p. m., 29/5/2021] Edmon: function main() {
+    var aumentar = parseInt(readLine(), 10);
+    var precio = [98.99, 15.2, 20, 1026];
+    //your code goes here
+    for (i = 0; i < precio.length; i++) {
+        precio[i] += aumentar;
+    }
+
+    console.log(precio);
+}
